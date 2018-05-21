@@ -4,18 +4,20 @@
   "description": "This is a test directory to learn Git and Node",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcelomapr/coursera.git"
+    "url": "git+https://github.com/marcelomapr/coursera-spec-fullstack-appdev.git"
   },
   "author": "Marcelo Rosa",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/marcelomapr/coursera/issues"
+    "url": "https://github.com/marcelomapr/coursera-spec-fullstack-appdev/issues"
   },
-  "homepage": "https://github.com/marcelomapr/coursera#readme",
+  "homepage": "https://github.com/marcelomapr/coursera-spec-fullstack-appdev#readme",
   "devDependencies": {
     "lite-server": "^2.3.0"
   }
